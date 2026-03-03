@@ -20,28 +20,28 @@ const socialLinks = [
     icon: SiX,
     href: "#",
     label: "Twitter/X",
-    handle: "@alexmorganwrites",
+    handle: "@tanveerwani",
     color: "hover:bg-black hover:text-white",
   },
   {
     icon: SiInstagram,
     href: "#",
     label: "Instagram",
-    handle: "@alex.wandering",
+    handle: "@tanveer.kashmir",
     color: "hover:bg-pink-500 hover:text-white",
   },
   {
     icon: SiLinkedin,
     href: "#",
     label: "LinkedIn",
-    handle: "Alex Morgan",
+    handle: "Tanveer Wani",
     color: "hover:bg-blue-600 hover:text-white",
   },
   {
     icon: SiPinterest,
     href: "#",
     label: "Pinterest",
-    handle: "alexmorganquill",
+    handle: "kashmirvibesTours",
     color: "hover:bg-red-600 hover:text-white",
   },
 ];
@@ -174,7 +174,7 @@ export default function Contact() {
                     <Input
                       id="contact-name"
                       name="name"
-                      placeholder="Alex Morgan"
+                      placeholder="Your Name"
                       value={form.name}
                       onChange={handleChange}
                       required

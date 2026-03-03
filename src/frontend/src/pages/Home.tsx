@@ -20,7 +20,7 @@ const fallbackPosts = [
       "A serendipitous detour through southern France led me to the most breathtaking landscapes I've ever witnessed — endless purple horizons that smelled of summer.",
     content: "",
     category: "Travel",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now()),
     imageUrl: "https://picsum.photos/seed/provence/600/400",
     tags: ["France", "Travel", "Nature"],
@@ -32,7 +32,7 @@ const fallbackPosts = [
       "An experiment in digital minimalism taught me more about focus, creativity, and genuine connection than any productivity hack ever could.",
     content: "",
     category: "Lifestyle",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now() - 86400000),
     imageUrl: "https://picsum.photos/seed/digital/600/400",
     tags: ["Mindfulness", "Technology", "Lifestyle"],
@@ -44,7 +44,7 @@ const fallbackPosts = [
       "From Tokyo's underground shops to a recipe I finally perfected in my own kitchen — here's everything I learned chasing the ideal bowl.",
     content: "",
     category: "Food",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now() - 2 * 86400000),
     imageUrl: "https://picsum.photos/seed/ramen/600/400",
     tags: ["Food", "Japan", "Cooking"],
@@ -56,7 +56,7 @@ const fallbackPosts = [
       "I've tried every note-taking app, every productivity system, and every knowledge management tool. Here's the honest truth about what sticks.",
     content: "",
     category: "Technology",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now() - 3 * 86400000),
     imageUrl: "https://picsum.photos/seed/notes/600/400",
     tags: ["Productivity", "Technology", "Writing"],
@@ -68,7 +68,7 @@ const fallbackPosts = [
       "After interviewing 40 writers, artists, and makers, a striking pattern emerged — and it has nothing to do with waking up at 5am.",
     content: "",
     category: "Lifestyle",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now() - 4 * 86400000),
     imageUrl: "https://picsum.photos/seed/morning/600/400",
     tags: ["Creativity", "Habits", "Lifestyle"],
@@ -80,7 +80,7 @@ const fallbackPosts = [
       "Walking the streets with a camera changed how I see the world. Every corner holds a story; the lens just helps me tell it.",
     content: "",
     category: "Photography",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(Date.now() - 5 * 86400000),
     imageUrl: "https://picsum.photos/seed/photo/600/400",
     tags: ["Photography", "Art", "Street"],
@@ -174,7 +174,7 @@ export default function Home() {
                   variant="outline"
                   className="border-white/30 text-white hover:bg-white/10 hover:border-white/50 px-8"
                 >
-                  About Alex
+                  About Tanveer
                 </Button>
               </a>
             </div>

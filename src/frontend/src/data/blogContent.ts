@@ -235,7 +235,7 @@ export const BLOG_CONTENT_MAP: Record<number, ExtendedPost> = {
     excerpt:
       "From ancient geological origins to snow-capped peaks that touch the sky, the Himalayas are not just mountains — they are a civilisation, a spiritual realm, and the greatest adventure on earth. Discover their history, geography, iconic hill stations, and everything you need to plan your perfect trip.",
     category: "Travel",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(1740700800000),
     imageUrl: "https://picsum.photos/seed/himalayas-main/1200/600",
     tags: ["Himalayas", "India", "Travel", "Mountains", "Hill Stations"],
@@ -249,7 +249,7 @@ export const BLOG_CONTENT_MAP: Record<number, ExtendedPost> = {
     excerpt:
       "Often called 'Paradise on Earth,' Kashmir is a destination that defies superlatives. Shimmering Dal Lake, saffron fields, Mughal gardens, carved wooden mosques, Alpine meadows of Gulmarg, and the warm hospitality of its people make this valley one of the most extraordinary places a traveller can visit.",
     category: "Travel",
-    author: "Alex Morgan",
+    author: "Tanveer Wani",
     date: BigInt(1740787200000),
     imageUrl: "https://picsum.photos/seed/kashmir-main/1200/600",
     tags: ["Kashmir", "India", "Travel", "Dal Lake", "Gulmarg", "Culture"],
