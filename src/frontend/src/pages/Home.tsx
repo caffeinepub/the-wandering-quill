@@ -14,18 +14,6 @@ import {
 // Fallback sample posts if backend is empty
 const fallbackPosts = [
   {
-    id: 1n,
-    title: "Lost in the Lavender Fields of Provence",
-    excerpt:
-      "A serendipitous detour through southern France led me to the most breathtaking landscapes I've ever witnessed — endless purple horizons that smelled of summer.",
-    content: "",
-    category: "Travel",
-    author: "Tanveer Wani",
-    date: BigInt(Date.now()),
-    imageUrl: "https://picsum.photos/seed/provence/600/400",
-    tags: ["France", "Travel", "Nature"],
-  },
-  {
     id: 2n,
     title: "Why I Deleted All My Social Media Apps for 30 Days",
     excerpt:
