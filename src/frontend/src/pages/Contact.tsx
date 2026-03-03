@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { ChevronDown, Loader2, Send } from "lucide-react";
+import { Loader2, Mail, MapPin, Phone, Send } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { SiInstagram, SiLinkedin, SiPinterest, SiX } from "react-icons/si";
@@ -253,13 +253,68 @@ export default function Contact() {
             )}
           </motion.div>
 
-          {/* Social + Info */}
+          {/* Contact Info + Social */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="md:col-span-2 space-y-8"
+            className="md:col-span-2 space-y-6"
           >
+            {/* Direct Contact Details */}
+            <div
+              className="bg-[oklch(var(--navy-deep))] rounded-xl p-6 text-white space-y-4"
+              data-ocid="contact.info.panel"
+            >
+              <h3 className="font-display font-bold text-lg">Get in Touch</h3>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <Phone className="w-4 h-4 mt-0.5 text-[oklch(var(--gold))] shrink-0" />
+                  <div>
+                    <p className="text-sm font-semibold">Phone / WhatsApp</p>
+                    <a
+                      href="tel:+919103264586"
+                      className="text-white/80 text-sm hover:text-white transition-colors"
+                    >
+                      +91 9103264586
+                    </a>
+                    <br />
+                    <a
+                      href="tel:+919906581695"
+                      className="text-white/80 text-sm hover:text-white transition-colors"
+                    >
+                      +91 9906581695
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Mail className="w-4 h-4 mt-0.5 text-[oklch(var(--gold))] shrink-0" />
+                  <div>
+                    <p className="text-sm font-semibold">Email</p>
+                    <a
+                      href="mailto:geva41460@gmail.com"
+                      className="text-white/80 text-sm hover:text-white transition-colors break-all"
+                    >
+                      geva41460@gmail.com
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-4 h-4 mt-0.5 text-[oklch(var(--gold))] shrink-0" />
+                  <div>
+                    <p className="text-sm font-semibold">
+                      Kashmir Vibes Tour & Travel Co
+                    </p>
+                    <p className="text-white/80 text-sm leading-relaxed">
+                      Qazigund, Anantnag
+                      <br />
+                      Jammu & Kashmir, India – 192221
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Social Links */}
             <div>
               <h3 className="font-display text-xl font-bold text-foreground mb-4">
                 Find Me Online
@@ -285,19 +340,6 @@ export default function Contact() {
                   ),
                 )}
               </div>
-            </div>
-
-            <div className="bg-[oklch(var(--navy-deep))] rounded-xl p-6 text-white">
-              <h3 className="font-display font-bold text-lg mb-2">
-                Response Time
-              </h3>
-              <p className="text-white/70 text-sm leading-relaxed">
-                I typically respond within{" "}
-                <span className="text-[oklch(var(--gold))] font-semibold">
-                  2–3 business days
-                </span>
-                . For urgent matters, Instagram DMs tend to be fastest.
-              </p>
             </div>
           </motion.div>
         </div>
